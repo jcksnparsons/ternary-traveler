@@ -1,0 +1,37 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "placeId": 1,
+      "name": "The Coliseum",
+      "description": "Super old place where people used to die",
+      "cost": 0,
+      "review": "Here is a placeholder review."
+    },
+    {
+      "placeId": 2,
+      "name": "place",
+      "description": "describe",
+      "cost": 5,
+      "review": "review",
+      "id": 2
+    }
+  ]
+}
