@@ -68,10 +68,13 @@ const events = {
         const deleteButtonId = event.target.id;
         const deleteButtonArray = deleteButtonId.split("--");
         const entryToDelete = parseInt(deleteButtonArray[1]);
+        const windowAlert = confirm("Are you sure you want to delete?");
 
-        API.deleteEntry(entryToDelete)
-          .then(API.fetchPOI)
-          .then(domFunctions.putPOIOnDOM);
+        if (windowAlert === true) {
+          API.deleteEntry(entryToDelete)
+            .then(API.fetchPOI)
+            .then(domFunctions.putPOIOnDOM);
+        }
       }
     });
   }
