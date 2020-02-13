@@ -18,12 +18,20 @@
   ],
   "interests": [
     {
-      "placeId": 1,
+      "placeId": 3,
       "name": "Eiffel Tower",
-      "description": "It's a big metal tower. It may be impressive to you. Possibly because you are simple.",
-      "cost": 2,
-      "review": "It's a large metal tower with a very long line at all times of the day. I understand the appeal of doing this once, but any more than that is foolhardy. ",
+      "description": "large metal thing",
+      "cost": "22.25",
+      "review": "It's essentially a large flag pole. Pass.",
       "id": 2
+    },
+    {
+      "placeId": 2,
+      "name": "The Alps",
+      "description": "Famous for being on candy bar wrappers",
+      "cost": "Free.99",
+      "review": "Go to the Italian side. It's cheaper.",
+      "id": 3
     }
   ]
 }
