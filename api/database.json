@@ -18,19 +18,11 @@
   ],
   "interests": [
     {
-      "id": 1,
       "placeId": 1,
-      "name": "The Coliseum",
-      "description": "Super old place where people used to die",
-      "cost": 0,
-      "review": "Here is a placeholder review."
-    },
-    {
-      "placeId": 2,
-      "name": "place",
-      "description": "describe",
-      "cost": 5,
-      "review": "review",
+      "name": "Eiffel Tower",
+      "description": "It's a big metal tower. It may be impressive to you. Possibly because you are simple.",
+      "cost": 2,
+      "review": "It's a large metal tower with a very long line at all times of the day. I understand the appeal of doing this once, but any more than that is foolhardy. ",
       "id": 2
     }
   ]

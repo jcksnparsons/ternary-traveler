@@ -6,6 +6,10 @@ const renderFunctions = {
         <p id="poi--description"><em>${placeOfInterest.description}</em></p>
         <p id="poi--cost">$ ${placeOfInterest.cost}</p>
         <p id="poi--review">${placeOfInterest.review}<p>
+        <div class="buttonDiv">
+        <button id="cardEdit--${placeOfInterest.id}">Edit</button>
+        <button id="cardDelete--${placeOfInterest.id}">Delete</button>
+        </div>
         </div>
         `;
   },
