@@ -18,14 +18,6 @@
   ],
   "interests": [
     {
-      "placeId": 3,
-      "name": "Eiffel Tower",
-      "description": "large metal thing",
-      "cost": "22.25",
-      "review": "It's essentially a large flag pole. Pass.",
-      "id": 2
-    },
-    {
       "placeId": 2,
       "name": "The Alps",
       "description": "Famous for being on candy bar wrappers",
