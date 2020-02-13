@@ -6,3 +6,4 @@ API.fetchPOI().then(domFunctions.putPOIOnDOM);
 
 events.recordPOI();
 events.deletePOI();
+events.editPOI();
