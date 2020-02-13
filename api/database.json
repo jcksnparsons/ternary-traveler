@@ -24,14 +24,6 @@
       "description": "Super old place where people used to die",
       "cost": 0,
       "review": "Here is a placeholder review."
-    },
-    {
-      "placeId": 2,
-      "name": "place",
-      "description": "describe",
-      "cost": 5,
-      "review": "review",
-      "id": 2
     }
   ]
 }

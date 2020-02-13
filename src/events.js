@@ -12,8 +12,8 @@ const events = {
     const save = document.querySelector("#saveButton");
 
     save.addEventListener("click", event => {
-      const placeId = parseInt(unparsedPlaceId.value)
-      const cost = parseInt(unparsedCost.value)
+      const placeId = parseInt(unparsedPlaceId.value);
+      const cost = parseInt(unparsedCost.value);
       const newEntry = renderFunctions.objectifier(
         placeId,
         name.value,
@@ -25,6 +25,19 @@ const events = {
       API.saveNewEntry(newEntry).then(() => {
         API.fetchPOI().then(domFunctions.putPOIOnDOM);
       });
+    });
+  },
+  deletePOI() {
+    const poiLog = document.querySelector("#POIlog");
+    poiLog.addEventListener("click", event => {
+      if (event.target.id.startsWith("cardDelete--")) {
+        const deleteButtonId = event.target.id;
+        const deleteButtonArray = deleteButtonId.split("--");
+        const entryToDelete = parseInt(deleteButtonArray[1]);
+        console.log(entryToDelete)
+
+        API.deleteEntry(entryToDelete).then(API.fetchPOI).then(domFunctions.putPOIOnDOM);
+      }
     });
   }
 };
